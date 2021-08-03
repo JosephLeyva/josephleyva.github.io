@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Jose Leyva </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+        integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+
+    <!--Favicon-->
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;900&family=Raleway:wght@400;900&display=swap"
+        rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html"><img src="./img/logo.png" alt="Logo"></a>
+        </div>
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"> <a href="index.html" class="nav__link">Home</a></li>
+                <li class="nav__item"> <a href="index.html#services" class="nav__link">My Services</a></li>
+                <li class="nav__item"> <a href="index.html#about" class="nav__link">About Me</a></li>
+                <li class="nav__item"> <a href="index.html#work" class="nav__link">My Work</a></li>
+
+            </ul>
+        </nav>
+    </header>
+
+    <section class="intro" id="home">
+        <h1 class="section__title section__title--intro">
+            Training Ms-Pacman <strong>Reinforcement Learning</strong>
+        </h1>
+        <p class="section__subtitle section__subtitle--intro">A DQN-Agent to play Atari Games</p>
+        <img src="img/portfolio-03.jpg" alt="a picture of portfolio" class="intro__img">
+    </section>
+
+    <div class="portfolio-item-individual">
+        <p>Ms. Pacman is an iconic game from Atari 2600. With the creation of OpenAI’s Gym, a toolkit for reinforcement
+            learning algorithms gave the ability to create agents for many games. In this project, we created an
+            environment for Ms. Pacman and trained it using a DQN network.</p>
+        <p>This was a Project for the university, where we needed to apply reinforcement learning an CNN's to some
+            agent.</p>
+        <img src="img/deep-learning.jpg" alt="deep-learning">
+
+        <div class="source-code">
+            <p>Check the Repository and a Medium Article with more details below.</p>
+            <ul class="social-list">
+                <li class="social-list__item">
+                    <a class="social-list__link"
+                        href="https://medium.com/analytics-vidhya/how-to-train-ms-pacman-with-reinforcement-learning-dea714a2365e"
+                        target="_blank">
+                        <i class="fab fa-medium"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://github.com/StarVeteran/Ms-Pacman-DQN" target="_blank">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+
+
+
+    <!-- Loading square for squar.red network -->
+    <div class="loader-wrapper">
+        <span class="loader"><span class="loader-inner"></span></span>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <!-- email -->
+        <a href="mailto:josealc1998@gmail.com" class="footer__link">josealc1998@gmail.com</a>
+        <ul class="social-list">
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://www.linkedin.com/in/josephleyvac/" target="_blank">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="tel:+52662-202-0061">
+                    <i class="fas fa-phone"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://github.com/JosephLeyva" target="_blank">
+                    <i class="fab fa-github"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://josephleyvac.medium.com/" target="_blank">
+                    <i class="fab fa-medium"></i>
+                </a>
+            </li>
+        </ul>
+    </footer>
+
+    <script src="js/index.js"></script>
+</body>
+
+</html>
